@@ -29,4 +29,18 @@ Ten real-valued features are computed for each cell nucleus:
 * All feature values are recoded with four significant digits.
 
 * Headers of the dataset:
-</Users/montu/Downloads/Git/CancerDetection/Data Headers.png>
+<img width="1067" alt="Screenshot 2024-07-07 at 12 15 05 AM" src="https://github.com/pratyusha-garaye/Cancer-Detection-using-Machine-Learning/assets/172596779/62d1b09d-0d84-4551-a9f8-dc498878a305">
+
+### 3. EDA and Label Encoding
+* Exploratory data analysis was performed using Pandas. Column with missing values was dropped.
+* Categorical variable is converted to numerical values.
+
+### 4. Cancer Prediction using Logistic Regression 
+* Dataset is split into training and test set. 75% of the data was used for training while remaining 25% was used for test.
+* Logistic Regression package is imported from Scikit-Learn and applied to get prediction on the presence of cancer.
+* The predicted values is plotted as a heatmap of the Confusion Matrix using Seaborn Library to determine the number of Type I and Type II errors. 
+
+* Confusion Matrix :
+![Confusion Matrix](https://github.com/pratyusha-garaye/Cancer-Detection-using-Machine-Learning/assets/172596779/8e6c6070-04ea-4c83-9e1a-cfee0afd9a44)
+
+### Calculated accuracy_score of the prediction: 97.89%
